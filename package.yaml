@@ -1,0 +1,57 @@
+name:                zyre2
+version:             0.1.0.3
+github:              "skrioify/haskell-zyre2"
+license:             MIT
+author:              "Emil Nylind"
+maintainer:          "emil@nylind.se"
+copyright:           "2022 Emil Nylind"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+synopsis:            Haskell zyre bindings for reliable group messaging over local area networks.
+category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/skrioify/haskell-zyre2#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- inline-c
+- text
+- bytestring
+
+library:
+  source-dirs: src
+  extra-lib-dirs:
+  - /usr/local/lib
+  extra-libraries: 
+  - zyre
+  - czmq
+
+executables:
+  zyre-example-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - zyre2
+
+tests:
+  zyre2-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - zyre2
+

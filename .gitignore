@@ -1,0 +1,4 @@
+.stack-work/
+*~
+stack.yaml.lock
+zyre-2.0.1.tar.gz
