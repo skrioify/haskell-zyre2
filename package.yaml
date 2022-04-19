@@ -21,9 +21,9 @@ description:         Please see the README on GitHub at <https://github.com/skri
 
 dependencies:
 - base >= 4.7 && < 5
-- inline-c
-- text
-- bytestring
+- inline-c >= 0.9.1 && < 0.10
+- text >= 1.2.4 && < 1.3
+- bytestring >= 0.10.12 && < 0.11
 
 library:
   source-dirs: src
