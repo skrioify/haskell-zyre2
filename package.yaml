@@ -32,6 +32,9 @@ library:
   extra-libraries: 
   - zyre
   - czmq
+  exposed-modules:
+  - Network.Zyre2
+  - Network.Zyre2.Configuration
 
 executables:
   zyre-example-exe:

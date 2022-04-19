@@ -28,12 +28,12 @@ source-repository head
 library
   exposed-modules:
       Network.Zyre2
-      Network.Zyre2.Bindings
       Network.Zyre2.Configuration
+  other-modules:
+      Network.Zyre2.Bindings
       Network.Zyre2.Types
       Network.Zyre2.ZMsg
       Network.Zyre2.Zyre
-  other-modules:
       Paths_zyre2
   hs-source-dirs:
       src
