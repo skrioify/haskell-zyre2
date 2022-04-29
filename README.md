@@ -18,4 +18,4 @@ Tread with care (for now).
 
 ## Documentation
 
-The package is thoroughly documented with haddock, which can be found at X or generated using 'cabal haddock' or 'stack haddock'.
+The package is thoroughly documented with haddock, which can be found at https://hackage.haskell.org/package/zyre2 or generated using 'cabal haddock' or 'stack haddock'.
