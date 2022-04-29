@@ -5,7 +5,7 @@ cabal-version: 1.12
 -- see: https://github.com/sol/hpack
 
 name:           zyre2
-version:        0.1.0.3
+version:        0.1.1.0
 synopsis:       Haskell zyre bindings for reliable group messaging over local area networks.
 description:    Please see the README on GitHub at <https://github.com/skrioify/haskell-zyre2#readme>
 category:       Web
