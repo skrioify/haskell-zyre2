@@ -1,5 +1,11 @@
 # Changelog for zyre2
 
+
+## 0.1.1.0
+
+This minor release adds the function 'peerName' to allow retrieving a nodes name by its id without manually having to track Enter/Exit messages.
+It also removes some misleading haddock documentation.
+
 ## 0.1.0.3
 
 Initial release. Versions 0.1.0.0 through 0.1.0.2 are internal development releases.

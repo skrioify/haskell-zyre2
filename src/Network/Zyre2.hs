@@ -43,6 +43,7 @@ module Network.Zyre2
     peers,
     peersByGroup,
     peerAddress,
+    peerName,
     peerHeaderValue,
 
     -- * Sending and receiving messages
@@ -109,6 +110,7 @@ import Network.Zyre2.Zyre
     peerGroups,
     peers,
     peerAddress,
+    peerName,
     peerHeaderValue,
     peersByGroup,
     recv,
